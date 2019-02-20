@@ -1,0 +1,11 @@
+.feature-box{
+  border: solid 2px #fff;
+  &:hover{
+    background-color:rgb(104,118,128);
+    text-decoration: none;
+  }
+  &:active{
+    background-color:rgb(104,118,128);
+    text-decoration: none;
+  }
+}

@@ -1,12 +1,16 @@
 $brand-primary: #259595;
 $brand-secondary: #273c4a;
+$brand-grey: #f8f8f8;
 
 
 .bg{
   &-primary{
-    background-color: $brand-primary;
+    background-color: $brand-primary!important;
   }
   &-secondary{
-    background-color: $brand-secondary;
+    background-color: $brand-secondary!important;
+  }
+  &-grey{
+    background-color: $brand-grey;
   }
 }
