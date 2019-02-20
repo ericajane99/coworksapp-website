@@ -14,3 +14,9 @@ $brand-grey: #f8f8f8;
     background-color: $brand-grey;
   }
 }
+
+.brand{
+  &-teal{
+    color: $brand-primary;
+  }
+}
