@@ -2,7 +2,6 @@
 
 $primary-font: 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
 
-@media (min-width: 992px) {
 .h1,h1{
     font-family: $primary-font;
     font-size: 7rem;
@@ -20,8 +19,8 @@ $primary-font: 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
 }
 .h4,h4{
     font-family: $primary-font;
-    font-size: 4.5rem;
-    font-weight: 700;
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 .h5,h5{
     font-family: $primary-font;
@@ -38,81 +37,6 @@ $primary-font: 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 300;
 }
-}
-
-
-@media (min-width: 768px), (max-width: 991px) {
-  .h1,h1{
-      font-family: $primary-font;
-      font-size: 7rem;
-      font-weight: 700;
-  }
-  .h2,h2{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 600;
-  }
-  .h3,h3{
-      font-family: $primary-font;
-      font-size: 3rem;
-      font-weight: 500;
-  }
-  .h4,h4{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .h5,h5{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .h6,h6{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .p,p{
-      font-family: $primary-font;
-      font-size: 2rem;
-      font-weight: 300;
-  }
-}
-
-@media (max-width: 767px){
-  .h1,h1{
-      font-family: $primary-font;
-      font-size: 7rem;
-      font-weight: 700;
-  }
-  .h2,h2{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 600;
-  }
-  .h3,h3{
-      font-family: $primary-font;
-      font-size: 3rem;
-      font-weight: 500;
-  }
-  .h4,h4{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .h5,h5{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .h6,h6{
-      font-family: $primary-font;
-      font-size: 4.5rem;
-      font-weight: 700;
-  }
-  .p,p{
-      font-family: $primary-font;
-      font-size: 2rem;
-      font-weight: 300;
-  }
+.strong,strong{
+  font-weight: 800;
 }
