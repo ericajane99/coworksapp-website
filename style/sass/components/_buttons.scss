@@ -62,9 +62,9 @@
 			border-color: $brand-primary;
 			color: white;
 			font-family: $primary-font;
-			font-weight: 600;
+			font-weight: 500;
 			font-size: 2rem;
-			padding: .5rem 1rem;
+			padding: 1rem 1.5rem;
 
 			&:hover {
 				background-color: lighten($brand-primary, 15%);
@@ -138,5 +138,28 @@
 				box-shadow: 0 0 0 0.2rem rgba(0,0,0,.2)!important;
 			}
 		}
+		&-feature{
+			background-color: $brand-primary;
+			border-radius: 3px 3px 3px 3px;
+			border-color: $brand-primary;
+			color: white;
+			font-family: $primary-font;
+			font-weight: 500;
+			font-size: 2rem;
+			padding: 1rem 1.5rem;
+
+			&:hover {
+				background-color: lighten($brand-primary, 15%);
+				color: white;
+				border-color: lighten($brand-primary, 15%)!important;
+			}
+
+			&:active {
+				background-color: lighten($brand-primary, 15%)!important;
+				color: white;
+				border-color: lighten($brand-primary, 15%)!important;
+				box-shadow: 0 0 0 0.2rem rgba(0,0,0,.2)!important;
+		}
+	}
   }
 }
