@@ -8,7 +8,7 @@
 			border-color: white;
 			color: $brand-primary;
 			font-family: $primary-font;
-			font-weight: 600;
+			font-weight: 500;
 			font-size: 2rem;
 			padding: 1.1rem 3.2rem;
 
@@ -17,7 +17,7 @@
 				background-color: darken(white, 15%);
 				color: $brand-primary;
 				font-family: $primary-font;
-				font-weight: 600;
+				font-weight: 500;
 				font-size: 2rem;
 				border-color: darken(white, 15%)!important;
 			}
@@ -26,7 +26,7 @@
 				background-color: darken(white, 15%)!important;
 				color: $brand-primary !important;
 				font-family: $primary-font !important;
-				font-weight: 600;
+				font-weight: 500;
 				font-size: 2rem;
 				border-color: darken(white, 15%)!important;
 				box-shadow: 0 0 0 0.2rem rgba(0,0,0,.15)!important;
@@ -39,7 +39,7 @@
 			border-color: $brand-primary;
 			color: white;
 			font-family: $primary-font;
-			font-weight: 600;
+			font-weight: 500;
 			font-size: 2rem;
 			padding: 1.1rem 3.2rem;
 
@@ -89,16 +89,16 @@
 			border-color: white;
 			color: $brand-primary;
 			font-family: $primary-font;
-			font-weight: 600;
-			font-size: 2rem;
+			font-weight: 500;
+			font-size: 2.2rem;
 			padding: 1.5rem 4rem;
 
 			&:hover {
 				background-color: darken(white, 15%);
 				color: $brand-primary;
 				font-family: $primary-font;
-				font-weight: 600;
-				font-size: 2rem;
+				font-weight: 500;
+				font-size: 2.2rem;
 				border-color: darken(white, 15%)!important;
 			}
 
@@ -106,8 +106,8 @@
 				background-color: darken(white, 15%)!important;
 				color: $brand-primary !important;
 				font-family: $primary-font !important;
-				font-weight: 600;
-				font-size: 2rem;
+				font-weight: 500;
+				font-size: 2.2rem;
 				border-color: darken(white, 15%)!important;
 				box-shadow: 0 0 0 0.2rem rgba(0,0,0,.15)!important;
 			}
@@ -119,21 +119,21 @@
 			border-color: $brand-primary;
 			color: white;
 			font-family: $primary-font;
-			font-weight: 600;
-			font-size: 1.8rem;
+			font-weight: 500;
+			font-size: 2.2rem;
 			padding: 1.5rem 4rem;
 
 			&:hover {
 				background-color: lighten($brand-primary, 15%);
 				color: white;
-				font-size: 1.8rem;
+				font-size: 2.2rem;
 				border-color: lighten($brand-primary, 15%)!important;
 			}
 
 			&:active {
 				background-color: lighten($brand-primary, 15%)!important;
 				color: white;
-				font-size: 1.8rem;
+				font-size: 2.2rem;
 				border-color: lighten($brand-primary, 15%)!important;
 				box-shadow: 0 0 0 0.2rem rgba(0,0,0,.2)!important;
 			}
