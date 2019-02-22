@@ -1,0 +1,15 @@
+.nav-pills .nav-link.active{
+  background-color: $brand-primary;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.nav-link:hover{
+  color: $brand-primary;
+}
+
+.nav-pills{
+  border: 2px solid $brand-primary;
+  border-radius: 40px;
+  overflow: hidden;
+}

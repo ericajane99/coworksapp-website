@@ -2,7 +2,7 @@ $brand-primary: #259595;
 $brand-secondary: #273c4a;
 $brand-grey: #f8f8f8;
 $brand-light: #E4F7F7;
-$brand-lightteal: #AEEFEF;
+$brand-red:#e54038;
 
 .bg{
   &-primary{
@@ -14,16 +14,16 @@ $brand-lightteal: #AEEFEF;
   &-grey{
     background-color: $brand-grey;
   }
-  &-lightblue{
-    background-color: $brand-light;
-  }
   &-lightteal{
-    background-color: $brand-lightteal;
+    background-color: $brand-light;
   }
 }
 
 .brand{
   &-teal{
     color: $brand-primary;
+  }
+  &-red{
+    color: $brand-red;
   }
 }
